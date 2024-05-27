@@ -42,11 +42,11 @@ const Navbar = () => {
 
       <div className="navbar_right">
         {user ? (
-          <a href="https://rentify-backend-bi7v.onrender.com/create-listing" className="host">
+          <a href="https://frontend-rentify.vercel.app/create-listing" className="host">
             Become A Host
           </a>
         ) : (
-          <a href="https://rentify-backend-bi7v.onrender.com/auth/login" className="host">
+          <a href="https://frontend-rentify.vercel.app/login" className="host">
             Become A Host
           </a>
         )}
