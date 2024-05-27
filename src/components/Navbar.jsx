@@ -46,7 +46,7 @@ const Navbar = () => {
             Become A Host
           </a>
         ) : (
-          <a href="https://rentify-backend-bi7v.onrender.com/login" className="host">
+          <a href="https://rentify-backend-bi7v.onrender.com/auth/login" className="host">
             Become A Host
           </a>
         )}

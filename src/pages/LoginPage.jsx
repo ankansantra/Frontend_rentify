@@ -75,7 +75,7 @@ const LoginPage = () => {
           {error && <p className="error_message">{error}</p>}
           <button type="submit">LOG IN</button>
         </form>
-        <a href="https://rentify-backend-bi7v.onrender.com/register">Don't have an account? Sign In Here</a>
+        <a href="https://rentify-backend-bi7v.onrender.com/auth/register">Don't have an account? Sign In Here</a>
       </div>
     </div>
   );

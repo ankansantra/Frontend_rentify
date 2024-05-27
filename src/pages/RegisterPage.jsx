@@ -144,7 +144,7 @@ const RegisterPage = () => {
           )}
           <button type="submit" disabled={!passwordMatch}>REGISTER</button>
         </form>
-        <a href="https://rentify-backend-bi7v.onrender.com/login">Already have an account? Log In Here</a>
+        <a href="https://rentify-backend-bi7v.onrender.com/auth/login">Already have an account? Log In Here</a>
       </div>
     </div>
   );
